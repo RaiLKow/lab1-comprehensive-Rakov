@@ -1,2 +1,3 @@
-def aplly_discount(price)^
-    return price * 0.9
+def calculate_cart_total(cart_sum, tier, promos):
+    price = cart_sum
+    return price 
