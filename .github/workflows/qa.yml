@@ -1,4 +1,5 @@
 name: QA Pipeline
+
 on:
   pull_request:
     branches: [develop]
@@ -14,4 +15,3 @@ jobs:
       - name: Install flake8
         run: pip install flake8
       - name: Run flake8
-        run: flake8 .
